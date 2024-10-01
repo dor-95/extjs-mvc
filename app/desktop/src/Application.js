@@ -3,6 +3,19 @@ Ext.define('ExtMVC.Application', {
   name: 'ExtMVC',
   requires: ['ExtMVC.*'],
 
+  views: [
+
+  ],
+
+  controllers: [
+    'Main'
+  ],
+  
+  stores: [
+
+  ],
+
+
   launch: function () {
     Ext.Viewport.add([{xtype: 'mainview'}])
   },
